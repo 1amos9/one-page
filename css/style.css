@@ -7,6 +7,9 @@
 .top-text-body{
                background: url(../img/BACK.jfif);
 }
+.about-us h3{
+color: rgb(4, 4, 48);
+}
 .logo{
                transition: all 300ms ease-in-out;
                filter: grayscale(100%);
