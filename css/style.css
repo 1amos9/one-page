@@ -3,6 +3,9 @@
                padding: 0;
                box-sizing: border-box;
 }
+.top-text-body{
+               background: url(../img/BACK.jfif);
+}
 .logo{
                transition: all 300ms ease-in-out;
                filter: grayscale(100%);
