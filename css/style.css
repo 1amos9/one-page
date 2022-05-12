@@ -4,11 +4,14 @@
                box-sizing: border-box;
 }
 
+.top-text-body h1, h2{
+               color: #124265; 
+}
 .top-text-body{
                background: url(../img/BACK.jfif);
 }
 .about-us h3{
-color: #124265;;
+color: #124265;
 }
 .logo{
                transition: all 300ms ease-in-out;
@@ -19,8 +22,8 @@ color: #124265;;
                transform: scale(1.2);
 }
 .number-container h1, p{
-               color: #124265;;
+               color: #124265;
 }
 .voluntary-container h3{
-               color: #124265;;   
+               color: #124265; 
 }
