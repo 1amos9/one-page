@@ -8,7 +8,9 @@
                color: #124265; 
 }
 .top-text-body{
-               background: url(../img/BACK.jfif);
+               background: url(../img/back.jpg);
+               background-repeat: no-repeat;
+               
 }
 .about-us h2{
 color: #124265;
