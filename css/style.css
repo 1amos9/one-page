@@ -10,6 +10,9 @@
 .top-text-body{
                background: url(../img/back.jpg);
                background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+               background-attachment: fixed;
                
 }
 .about-us h2{
