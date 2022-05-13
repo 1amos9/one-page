@@ -1,11 +1,13 @@
+:root{
+               --text-color: #124265;
+}
 *{
                margin: 0;
                padding: 0;
                box-sizing: border-box;
 }
-
 .top-text-body h1, h2{
-               color: #124265; 
+               color: var(--text-color); 
 }
 .top-text-body{
                background: url(../img/back.jpg);
@@ -16,19 +18,79 @@
                
 }
 .about-us h2{
-color: #124265;
+color: var(--text-color);
+}
+.client{
+               overflow: hidden;
 }
 .logo{
-               transition: all 300ms ease-in-out;
+               max-width: 45%;
+               cursor: pointer;
+               transition: all 0.4s ease-in-out;
                filter: grayscale(100%);
 }
 .logo:hover{
               filter: grayscale(0%);
-               transform: scale(1.2);
+               transform: scale(1.15);
 }
 .number-container h1, p{
-               color: #124265;
+               color: var(--text-color);
 }
 .voluntary-container h3{
-               color: #124265; 
+               color: var(--text-color); 
+}
+.section-tittles h2{
+               color: var(--text-color);
+}
+.testimonial-pic img{
+               width: 100px;
+               border-radius: 50%;
+               height: 100px;
+}
+.testimonial-pic h3 {
+               font-size: 15px;
+}
+.testimonial-pic h4{
+               font-size: 15px; 
+               opacity: 0.5; 
+}
+.testimonial-text {
+               background-color: #f3f9fd;
+               border-radius: 10px;
+               padding: 15px;
+               font-style: italic;
+               opacity: 0.5;              
+}
+.testimonial-item{
+               text-align: center;
+               border-radius: 20%;
+               min-height: 320px;
+               box-sizing: content-box;
+               display: flex;
+               flex-direction: column;
+               gap: 1rem;
+}
+.testimonial-text p{
+               color: #000;
+}
+.testimonial-text p i{
+               color: rgb(162, 209, 247);
+               
+}
+.testimonial-item{
+               
+               animation: scroll 50s linear infinite;
+}
+@keyframes scroll {
+               0% { transform: translateX(0);}
+               100% {transform: translateX(calc(-250px*9));}
+}
+
+
+@media(max-width: 768px){
+             
+               .logo{
+                              padding: 15px 0px;
+                              max-width: 40%;
+               }
 }
