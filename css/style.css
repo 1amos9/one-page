@@ -138,8 +138,10 @@ border-radius: 10px;
 .action-body button{
                border-color: #fff;
                width: 15rem;
-               border-width: 1.5px;
+               border-width: 2px;
+               height: 3rem;
                padding: auto;
+               border-radius: 10px;
 } 
 .action-body button:hover{
                background-color: #fff;
